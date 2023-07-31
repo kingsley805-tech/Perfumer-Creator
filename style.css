@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Fraunces:wght@700&display=swap');
+
+body {
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2,
+h5 {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    width: 350px;
+    height: 668px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+    text-align: center;
+    max-width: 400px;
+    padding: 40px;
+    margin-bottom: 22px;
+    background-color: hsl(30, 38%, 92%);
+    box-shadow: 3px 3px hsl(30, 38%, 92%);
+}
+
+
+img {
+    width: 350px;
+    height: 300px;
+    border-radius: 12px 12px 0px 0px;
+    
+
+
+}
+
+p {
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 15px;
+    text-align: left;
+    margin: 15px 0 0 15px;
+    letter-spacing: 5px;
+    color: #6C7289;
+
+}
+
+h2 {
+    text-align: center;
+    color: #1C232B;
+
+
+}
+
+h5 {
+    align-items: center;
+    text-align: center;
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #6C7289
+}
+
+.three {
+    text-align: left;
+    margin: 10px 0 0 15px;
+
+
+}
+
+.large {
+    font-size: 30px;
+    color: #3D8168;
+    font-family: "fraunces", sans-serif;
+
+}
+
+.small {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    color: #6C7289;
+
+}
+.right{
+    background: white;
+    margin-top: -18px;
+    height: 26rem;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.cart{
+    width: 25px;
+    height: 20px;
+    padding-top: 5px;
+}
+button {
+
+    width: 330px;
+    height: 3px;
+    margin-top: 27px;
+    padding-bottom: 0.1rem;
+    padding-bottom: 2.5rem;
+    background-color: #3D8168;
+    border-radius: 12px;
+
+}
+
+.add {
+    padding: 1rem;
+    font-size: 20px;
+    color: white;
+
+}
+
+
+
+@media only screen and (min-width:768px) {
+    
+    .container {
+        min-width: 50vw;
+        height: 700px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 40px;
+        background-color: hsl(30, 38%, 92%);
+        box-shadow: 3px 3px hsl(30, 38%, 92%);
+    }
+    
+
+
+img {
+    width: 343px;
+    height: 607px;
+    border-radius: 12px 0px 0px 12px;
+    
+   
+    
+
+
+}
+
+p {
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 15px;
+    text-align: left;
+    margin: 15px 0 0 15px;
+    letter-spacing: 5px;
+    color: #6C7289;
+
+}
+
+h2 {
+    text-align: center;
+    color: #1C232B;
+    margin-bottom: 60px;
+    font-size: 2.5rem;
+
+
+}
+
+h5 {
+    align-items: center;
+    text-align: center;
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 60px;
+    line-height: 23px;
+    color: #6C7289
+    
+}
+
+.three {
+    text-align: left;
+    margin: 5px 0 0 15px;
+    margin-bottom: 20px;
+    margin-top: 1px;
+    font-size: 0rem;
+
+
+}
+
+.large {
+    font-size: 30px;
+    color: #3D8168;
+    font-family: "fraunces", sans-serif;
+
+}
+
+.small {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    color: #6C7289;
+
+}
+.right{
+    width: 343px;
+    height: 607px;
+    background: white;
+    margin-top: -0.4px;
+    border-radius:0px 12px 12px 0px;
+   
+   
+}
+
+.cart{
+    width: 25px;
+    height: 20px;
+    padding-top: 5px;
+}
+button {
+
+    width: 330px;
+    height: 3px;
+    margin-top: 10px;
+    padding-bottom: 0.1rem;
+    padding-bottom: 2.5rem;
+    background-color: #3D8168;
+    border-radius: 12px;
+
+}
+
+.add {
+    padding: 1rem;
+    font-size: 20px;
+    color: white;
+
+}
+}
